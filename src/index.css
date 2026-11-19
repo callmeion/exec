@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+:root { --brand: #0d9488; }
+html { font-family: "Leelawadee UI", "Noto Sans Thai", "Segoe UI", Tahoma, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+body { @apply bg-[#f3f6f6] text-slate-800 dark:bg-slate-950 dark:text-slate-100; }
+select { @apply focus:outline-none focus:ring-2 focus:ring-teal-500/40; }
+::-webkit-scrollbar { height: 8px; width: 8px } ::-webkit-scrollbar-thumb { background: #94a3b866; border-radius: 8px }
+@media print { .no-print { display: none !important; } }
