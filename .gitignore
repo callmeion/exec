@@ -1,0 +1,5 @@
+node_modules
+dist
+# ห้าม commit ไฟล์ Excel ต้นฉบับ (ข้อมูลจริง) — ขึ้น GitHub เฉพาะ public/data/data.enc ที่เข้ารหัสแล้ว
+data-source/*.xls*
+*.xlsx
